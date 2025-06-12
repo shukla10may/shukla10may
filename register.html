@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            display: flex;
+            /* justify-items: center; */
+            justify-content: center;
+            /*horizontally aligned */
+
+            align-items: center;
+            /* verttically aligned  */
+
+            background-color: rgb(76, 76, 76);
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #a5a4a4;
+            width: 500px;
+            border-radius: 88px;
+
+        }
+
+        .head {
+            background: #ffb8b8;
+            margin: 44px;
+        }
+
+        .register {
+            display: flex;
+            justify-content: center;
+        }
+
+        .form-content {
+            display: grid;
+            justify-content: center;
+            background-color: #b3ffa0;
+            padding: 10px;
+            margin: 44px;
+            gap: 10px;
+        }
+
+        .l1 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="head">
+            <h2 class="register">Registration</h2>
+            <h3>Create Account</h3>
+            <p>Already have an account ?</p> <a href="login.html">Log in</a>
+            <br><br><br>
+        </div>
+        <div class="form-content">
+            <form action="">
+                <span class="l1">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Full Name" name="name">
+
+                </span>
+                <span class="l1"> <label for="dob">DOB</label>
+                    <input type="date" placeholder="DOB" name="dob"></span>
+                <span class="l1">
+
+
+
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Email" name="email">
+
+                </span>
+                <span class="l1"> <label for="password">Password</label>
+                    <input type="password" placeholder="Password" name="password"></span>
+                <span class="l1"> <label for="institute">Institution</label>
+                    <input type="text" placeholder="Institution" name="institute">
+                </span>
+
+
+
+
+                <input type="button" value="Sign Up">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
